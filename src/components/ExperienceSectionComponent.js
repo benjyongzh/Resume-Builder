@@ -7,10 +7,10 @@ const ExperienceSectionComponent = props => {
 
     const {company, position, startYear, endYear, removeSection, sectionKey} = props;
 
-    const [showRemoveButton, setShowRemoveButton] = useState(false);
+    const [showRemoveButton, setShowRemoveButton] = useState(true);//should be false by default
 
     return(
-        <div className="subsection-container"  onMouseOver={() => setShowRemoveButton(true)} onMouseOut={() => setShowRemoveButton(false)}>
+        <div className="subsection-container" /*  onMouseOver={() => setShowRemoveButton(true)} onMouseOut={() => setShowRemoveButton(false)} */>
 
             <ContentButtonRemove  visible={showRemoveButton} onButtonClick={removeSection} sectionKey={sectionKey} />
 

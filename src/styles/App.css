@@ -4,8 +4,20 @@
   margin: auto;
 }
 
-form {
+.App>form {
   display: grid;
   grid-auto-flow: row;
   gap: 50px;
+}
+
+.App>form>button {
+  padding: 0.6em 2em;
+  font-size: 18px;
+  background-color: rgb(81, 206, 206);
+  border-radius: 8px;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
 }

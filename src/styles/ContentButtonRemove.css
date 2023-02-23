@@ -4,8 +4,11 @@
     background-color: rgb(196, 97, 97);
     border-radius: 8px;
     border-width: 0px;
-    width: 100px;
-    position: absolute;
+    /* position: absolute;
     top:20px;
-    right: 20px;
+    right: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
 }

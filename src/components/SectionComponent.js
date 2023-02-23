@@ -11,7 +11,7 @@ const SectionComponent = props => {
 
     const {section, addable, sectionType} = props;
 
-    const [showAddButton, setShowAddButton] = useState(false);
+    const [showAddButton, setShowAddButton] = useState(true);//should be false by default
 
     const [subSections, setSubSections] = useState([]);
 
@@ -70,10 +70,10 @@ const SectionComponent = props => {
 
     return(
         
-        <div className="section-container" onMouseOver={() => setShowAddButton(true)} onMouseOut={() => setShowAddButton(false)}>
+        <div className="section-container" /* onMouseOver={() => setShowAddButton(true)} onMouseOut={() => setShowAddButton(false) }*/>
             <header className="section-title">{section.title}</header>
 
-            <ContentButtonAdd enabled={addable} visible={showAddButton} onButtonClick={createSubSection} />
+            
 
             <div className="section-content">
 
@@ -112,6 +112,8 @@ const SectionComponent = props => {
                 }
 
             </div>
+            
+            <ContentButtonAdd enabled={addable} visible={showAddButton} onButtonClick={createSubSection} />
         </div>
         
     );

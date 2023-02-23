@@ -1,12 +1,15 @@
 .content-add {
-    padding: 0.5em 1.2em;
+    padding: 0.7em 2em;
     font-size: 16px;
     background-color: rgb(81, 206, 206);
     border-radius: 8px;
     border-width: 0px;
-    width: 100px;
-    position: absolute;
-    top:0%;
-    right: 0%;
-    /* align-self: end; */
+    width: calc(100% - 15px);
+    /* position: absolute; */
+    /* top:0%;
+    right: 0%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
 }

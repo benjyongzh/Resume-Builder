@@ -11,11 +11,11 @@
     padding-bottom: 0px;
 }
 
-label {
+.input-component>label {
     font-size: 18px;
 }
 
-input {
+.input-component>input {
     font-size: 16px;
     padding: 5px;
     /* border-radius: 5px; */
