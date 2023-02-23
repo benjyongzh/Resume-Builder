@@ -106,6 +106,7 @@ const SectionComponent = props => {
                                 />
                             );
                         };
+                        return ({});
                         
                     })
                 }
