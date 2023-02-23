@@ -5,8 +5,8 @@ Githib Page: https://benjyongzh.github.io/Resume-Builder/
 
 Learning Objectives:
 
-- First hand at using ReactJS in a project.
-- Practice basic ReactJS class components.
-- Learn about states and props, within class component syntax.
+- Practise ReactJS with forms.
+- Practise basic ReactJS functional components.
+- Practise states and props across components.
 
 The original project was last modified in January 2023, and was filtered from the Odin-Javascript repo into this separate repo.
